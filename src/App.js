@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+import Home from './views/home'
+import One from './views/one'
+import Two from './views/two'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+        <div>
+          <a href="/home">家</a>
+          <a href="/one">one</a>
+          <a href="/two">two</a>
+          <br />
+          <Link to="home"> 家</Link>
+          <Link to="one"> 产品</Link>
+          <Link to="two">我们</Link>
+          <br />
+          <Route path="/home" component={Home} />
+          <Route path="/one" component={One} />
+          <Route path="/two" component={Two} />
+        </div>
+      </BrowserRouter>
     );
   }
 }
