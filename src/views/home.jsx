@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import '../styles/homePage.scss'
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -7,7 +8,7 @@ class Home extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="homePage">
                 <a href="baidu.com">百度</a>
             </div>
         );
