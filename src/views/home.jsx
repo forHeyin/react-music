@@ -9,7 +9,7 @@ class Home extends Component {
     render() {
         return (
             <div className="homePage">
-                <a href="baidu.com">百度000</a>
+                <a href="baidu.com">百度</a>
             </div>
         );
     }
