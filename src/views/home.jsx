@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
+import '../styles/main.scss'
 
-import '../styles/homePage.scss'
 class Home extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            arr: []
+        };
     }
+
     render() {
         return (
             <div className="homePage">
-                <a href="baidu.com">百度</a>
+                haha
             </div>
         );
     }

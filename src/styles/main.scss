@@ -6,3 +6,10 @@
     margin: 0 auto;
     margin-top: 60px;
 }
+
+table {
+    width: 100%;
+    tr,td {
+        border: 1px solid pink;
+    }
+}
