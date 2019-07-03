@@ -10,7 +10,10 @@ class Head extends Component {
   render() {
     return (
       <div className="head">
-        <div>dsa</div>
+        <div className="wapper wapper1">网易云音乐</div>
+        <div className="wapper wapper2"> </div>
+        <div className="wapper wapper3"> </div>
+        <div className="wapper wapper4"> </div>
       </div>
     )
   }

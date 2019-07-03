@@ -14,4 +14,9 @@ $fs: #310200;
   height: 50px;
   background: $mColor;
   color: #fff;
+  .wapper1 {
+    width: 200px;
+    flex-shrink: 0;
+    padding: 16px;
+  }
 }

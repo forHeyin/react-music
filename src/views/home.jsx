@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <div className="mian">
         <Head />
-        <div className="content">我是单色</div>
+        <div className="content"> </div>
         <Foot />
       </div>
     )

@@ -8,6 +8,9 @@ $hg2: #ffe3de;
 // 分割线
 $line: #f6bdbb;
 $fs: #310200;
+* {
+  box-sizing: border-box;
+}
 .mian {
   position: relative;
   width: 1020px;
