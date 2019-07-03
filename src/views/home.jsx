@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 import '../styles/main.scss'
+import Head from '../componets/header'
+import Foot from '../componets/footer'
 
 class Home extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      arr: []
-    }
-    this.cstat = 444
+    this.state = {}
   }
 
   render() {
     return (
       <div className="mian">
-        <div>我是单色</div>
+        <Head />
+        <div className="content">我是单色</div>
+        <Foot />
       </div>
     )
   }

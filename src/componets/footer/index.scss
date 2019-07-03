@@ -8,14 +8,10 @@ $hg2: #ffe3de;
 // 分割线
 $line: #f6bdbb;
 $fs: #310200;
-.mian {
-  position: relative;
-  width: 1020px;
-  max-width: 1020px;
-  box-shadow: 0 0 8px 6px #e1e1e2;
-  margin: 0 auto;
-  margin-top: 60px;
-  .content {
-    height: 710px;
-  }
+.foot {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: #f6f6f8;
+  color: $fs;
 }
