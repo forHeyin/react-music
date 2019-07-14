@@ -10,7 +10,7 @@ class Foot extends Component {
   render() {
     return (
       <div className="foot">
-        <div> </div>
+        <div>测试 </div>
       </div>
     )
   }
