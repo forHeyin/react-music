@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import '../styles/main.scss'
-import Head from '../componets/header'
-import Foot from '../componets/footer'
+import '@styles/main.scss'
+import '@styles/icon/iconfont.css'
+import '@styles/reset.css'
+import Head from '@components/header'
+import Foot from '@components/footer'
 
 class Home extends Component {
   constructor(props) {
