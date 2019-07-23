@@ -1,4 +1,4 @@
-$mColor: #d23023; // 主色调tabbar
+$mColor: #c62f2f; // 主色调tabbar
 // 首页背景色渐变色
 $bg1: #7e140f;
 $bg2: #ec6d59;
@@ -21,4 +21,13 @@ $fs: #310200;
   .content {
     height: 710px;
   }
+}
+
+input {
+  border: 0;
+  outline: unset;
+}
+
+.iconfont {
+  cursor: pointer;
 }
