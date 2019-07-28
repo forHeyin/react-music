@@ -13,13 +13,14 @@ $fs: #310200;
 }
 .mian {
   position: relative;
-  width: 1020px;
-  max-width: 1020px;
+  width: 1022px;
+  max-width: 1022px;
   box-shadow: 0 0 8px 6px #e1e1e2;
   margin: 0 auto;
   margin-top: 60px;
   .content {
-    height: 710px;
+    height: 570px;
+    overflow-y: auto;
   }
 }
 

@@ -21,9 +21,13 @@ class Head extends Component {
             <span className="iconfont icon-search" />
           </div>
           <div className="w3">
-            <img src="" alt="" />
-            <span>测试</span>
-            <span className="iconfont icon-xiala" />
+            <img
+              src="https://img3.doubanio.com/view/photo/l/public/p2216650995.webp"
+              alt=""
+            />
+            <span>狂凌博</span>
+            <i className="iconfont icon-xiala" />
+            <em>开通VIP</em>
           </div>
         </div>
         <div className="wapper wapper3">
